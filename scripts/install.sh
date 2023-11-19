@@ -4,10 +4,6 @@
 # date: 2023-11-19
 
 FILE_PATH=`pwd`
-REMOTE_NAME=$(cat remote_name.txt)
-GITHUB_REMOTE=$(cat github_remote.txt)
-USER_EMAIL=$(cat user_email.txt)
-USER_NAME=$(cat user_name.txt)
 
 # environment variable
 # JYYSLIDE_HOME=/home/hanzhe/Documents/Repos/HaohahaPPT/jyyslide-md
@@ -32,6 +28,12 @@ alias pptgen=\"\$MYSLIDE_SCRIPT/gen.sh \$1\"
 alias pptopen=\"\$MYSLIDE_SCRIPT/open.sh \$1\"
 " >> ~/.$SHELL_CONF
 source ~/.$SHELL_CONF
+
+# read some variables
+REMOTE_NAME=$(cat $MYSLIDE_SCRIPT/remote_name.txt)
+GITHUB_REMOTE=$(cat $MYSLIDE_SCRIPT/github_remote.txt)
+USER_EMAIL=$(cat $MYSLIDE_SCRIPT/user_email.txt)
+USER_NAME=$(cat $MYSLIDE_SCRIPT/user_name.txt)
 
 # new gitignore file
 touch .gitignore
