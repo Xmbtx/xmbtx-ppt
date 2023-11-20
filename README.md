@@ -2,6 +2,14 @@
 
 本项目基于 [jyyslide-md](https://github.com/zweix123/jyyslide-md#install) 构建自动化脚本，实现一键安装，直接上手使用。
 
+## Pre-install
+
+- 首先在 Github 上建立一个存放PPT的 名为 `A` 的仓库
+
+- 之后在本地建立一个仓库同名文件夹 `A`
+
+- 克隆本仓库，将本仓库的内容全部复制到 `A` 中即可
+
 ## Install
 
 - 首先打开 `scripts/` 文件夹内的四个 `.txt` 内容，分别需要你设置:
