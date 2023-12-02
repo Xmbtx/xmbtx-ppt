@@ -1,2 +1,2 @@
 # submit to Github
-bash $MYSLIDE_SCRIPT/auto-update-this-repo.sh
+zsh $MYSLIDE_SCRIPT/auto-update-this-repo.sh

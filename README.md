@@ -31,3 +31,5 @@
 - 目前多次执行 `pptgen` 会重复添加文档链接到 `README.md`，后续打补丁时将采用替换方案。
 
 - 目前不支持删除项目，未来将添加 `pptdel` 命令
+
+### [test](./pages/test/index.html)
