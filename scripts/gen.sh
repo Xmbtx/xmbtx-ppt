@@ -13,7 +13,7 @@ GEN=$JYYSLIDE_HOME/example/$1
 GEN_FILE=$GEN/dist/*
 
 # copy source file to working path
-mkdir $GEN
+mkdir -p $GEN
 cp -r $SOURCE/* $GEN
 
 # generate slides by jyyslide-md
