@@ -12,21 +12,7 @@
 
 ## Install
 
-- 首先打开 `scripts/` 文件夹内的四个 `.txt` 内容，分别需要你设置:
-
-   - `echo "REMOTE_NAME" > remote_name.txt` : `REMOTE_NAME` 是你想要设置的远程仓库名
-
-   - `echo "GITHUB_REMOTE" > github_remote.txt` : `GITHUB_REMOTE` 是你在 Github 上新建仓库的 ssh 地址
-
-   - `echo "USER_EMAIL" > user_email.txt` : `USER_EMAIL` 是你想要设置邮箱地址
-
-   - `echo "USER_NAME" > user_name.txt` : `USER_NAME` 是你想要设置的用户名
-
-然后执行：
-
-```bash
-./scripts/install.sh [YOUR_SHELL_NAME]
-```
+敬请期待
 
 ## 使用教程
 
@@ -36,6 +22,9 @@
 
 - `pptopen [DOC_NAME]` 打开已建立过 名为 `DOC_NAME` 的文档，进行编辑内容
 
+- `pptshow [DOC_NAME]` firefox打开生成的本地ppt页面
+
+- `pptupd` 上传更新的内容
 
 ## Bugs
 

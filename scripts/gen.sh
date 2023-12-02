@@ -17,7 +17,7 @@ mkdir -p $GEN
 cp -r $SOURCE/* $GEN
 
 # generate slides by jyyslide-md
-python3 -m poetry run python $JYYSLIDE_HOME/main.py $1/$1.md
+(cd $JYYSLIDE_HOME && python3 -m poetry run python $JYYSLIDE_HOME/main.py $GEN/$1.md)
 
 # new target folder
 mkdir -p $TARGET
@@ -29,5 +29,3 @@ cp -r $GEN_FILE $TARGET
 echo $'\n### ['$1'](./pages/'$1'/index.html)' >> $MYSLIDE_HOME/README.md
 
 
-# submit to Github
-bash $MYSLIDE_SCRIPT/auto-update-this-repo.sh
