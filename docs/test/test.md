@@ -87,3 +87,35 @@
 ### 想学咋写的看下面链接
 
 - [原文链接](https://squidfunk.github.io/mkdocs-material/reference/data-tables/)
+
+++++
+
+## 小试一下渐变
+
+- 当然这种内容变化幅度很大的效果不会很好就是了
+
+---
+
+##  然后是依次出现
+
+--
+
+- **这玩意也怪弱智的搭配加粗**
+
+--
+
+- *真的搭配斜体*
+
+--
+
+- <del>删除线</del>还有<mark>高亮</mark>和<red>标红</red>
+
+<hr>
+
+- （小加个空行）不能用markdownex插件的语法呜呜呜
+
+---
+
+## 最后一页来个图片
+
+<img class="center" src="./img/p1.png">
